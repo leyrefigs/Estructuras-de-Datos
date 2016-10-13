@@ -19,7 +19,7 @@ using namespace std;
 	*
 	*
 	* @include pruebacronologia.cpp
-	* @author Miguel Anguita y Leyre Figueroa
+	* @author Miguel Anguita y Leyre Figueira
 	* @date Octubre 2016
 	*/
 	
@@ -29,7 +29,7 @@ class EventoHistorico{
  	
 /**
 	* @page Tipo Rep del TDA EventoHistorico
-	* @section Conjunto invariante de la representación
+	* @section Conjunto invariante de la representaciÃ³n
 	*
 	*
 	*
