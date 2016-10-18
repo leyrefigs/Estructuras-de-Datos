@@ -100,6 +100,12 @@ class EventoHistorico{
   * @param os stream de salida
   * @param e EventoHistorico a escribir
   */
+	
+}}}}}}}}}}}}}
+
+bool operator >(const EventoHistórico &e);
+
+bool operator <(const EventoHistórico &e);
   
   friend ostream& operator<< (ostream& os, const EventoHistorico& e);
 
