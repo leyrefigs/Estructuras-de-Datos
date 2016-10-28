@@ -70,46 +70,7 @@ void EventoHistorico::eliminar(vector <string> v){
 	}	
 }
 
-vector <string> EventoHistorico::buscaEventosenFecha(string palabra, int anio){
 
-	fecha = anio;
-	string eventofinal;
-	bool encontrado == false;
-	bool igual;
-
-	for (int i=0; i<eventos.size() || encontrado==false; i++){
-		igual = true;	
-		for (int j=0; j < palabra.size() || igual==true; j++ ){
-			if (palabra[j] != eventos[i+j]){
-				igual = false;			
-			}
-		} 
-		if (igual == true){
-			encontrado = true;
-		}
-	}
-
-	if (encontrado==false){
-		eventofinal == "No existe ningun evento en esa fecha";
-	}
-	else{
-		eventofinal == Eventos();
-	}
-
-	return eventofinal;
-
-}
-
-vector <string> EventoHistorico::buscaEventos(string palabra){
-	//faltaria poner el tope de la fecha en el bucle que no se como encontrarlo
-	bool econtradro = false;
-	string eventofinal;
- 	for(anio=0; encontrado == false;anio++){
-		eventofinal = buscaEventosenFecha(palabra, anio);
-	}
-	
-	return anio;
-}
 
 bool EventoHistorico::operator==(const EventoHistorico &e){
 	if( (e.Fecha() == this->fecha) && (e.Eventos() == this->eventos) )
